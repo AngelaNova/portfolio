@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen text-center p-4">
+    <main className="flex flex-col items-center justify-center min-h-screen text-center p-4 bg-[#FCFCFC]">
       <h1 className="text-4xl font-bold mb-4">Hi, I'm Angela</h1>
       <p className="text-lg mb-6">
         A budding software developer | Next.js & React

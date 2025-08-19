@@ -1,3 +1,5 @@
+import Project from "../components/Project";
+
 export default function Projects() {
   const projects = [
     { name: "Portfolio Site", link: "#" },
@@ -7,6 +9,7 @@ export default function Projects() {
   return (
     <main className="p-4">
       <h2 className="text-2xl font-bold mb-4">Projects</h2>
+      <Project title="Title" text="hello" pic="" />
       <ul className="space-y-2">
         {projects.map((p) => (
           <li key={p.name}>
