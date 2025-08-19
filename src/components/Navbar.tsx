@@ -7,20 +7,19 @@ export default function Navbar() {
     <nav className="fixed w-full flex justify-around items-center space-x-6 p-4 bg-gray-100/50 mb-6 ">
       <div className="flex">
         <Link href="/">
-          <Image src="/AN_Logo.png" alt="AN logo" width={80} height={80} />
+          <Image src="/AN_Logo.png" alt="AN logo" width={90} height={90} />
         </Link>
       </div>
       <div className="flex flex-row justify-around items-center space-x-6">
-        <Link href="/projects" className="flex flex-row hover:text-blue-500">
-          <DropDownMenu
-            title="Projects"
-            titleHref="/Projects"
-            links={[
-              { label: "Learn Orgo Chem", href: "/projects/LearnOrgoChem" },
-              { label: "Financial App", href: "/projects/FinancialApp" },
-            ]}
-          />
-        </Link>
+        <DropDownMenu
+          title="Projects"
+          titleHref="/Projects"
+          links={[
+            { label: "Learn Orgo Chem", href: "/projects/LearnOrgoChem" },
+            { label: "Financial App", href: "/projects/FinancialApp" },
+          ]}
+        />
+
         <Link
           href="/about"
           className="flex flex-row items-center hover:text-blue-500"
