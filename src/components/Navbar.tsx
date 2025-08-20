@@ -4,7 +4,7 @@ import DropDownMenu from "./DropDownMenu";
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full flex justify-around items-center space-x-6 p-4 bg-gray-100/50 mb-6 ">
+    <nav className="fixed w-full flex justify-around items-center space-x-6 p-4 bg-white/50 backdrop-blur-md mb-6 ">
       <div className="flex">
         <Link href="/">
           <Image src="/AN_Logo.png" alt="AN logo" width={90} height={90} />

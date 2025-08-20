@@ -5,6 +5,7 @@ export default function Skills() {
     "Redux",
     "Tailwind CSS",
     "JavaScript",
+    "TypeScript",
     "Node.js",
     "Express",
     "MongoDB",
@@ -13,13 +14,13 @@ export default function Skills() {
   ];
 
   return (
-    <section className="py-16 px-6 text-center bg-white">
-      <h2 className="text-3xl font-bold mb-6">Skills</h2>
-      <div className="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+    <section className="py-32 px-6 text-center bg-white">
+      <h2 className="text-3xl font-bold mb-30">Skills</h2>
+      <div className="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto">
         {skills.map((skill) => (
           <span
             key={skill}
-            className="px-4 py-2 bg-[#C8DBCB] text-blue-800 rounded-full text-sm font-medium"
+            className="px-4 py-2 bg-[#C8DBCB] text-emerald-800 rounded-full text-sm font-medium"
           >
             {skill}
           </span>

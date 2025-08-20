@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Button from "./Button";
+import Image from "next/image";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -32,7 +33,14 @@ export default function Contact() {
 
   return (
     <main className="flex flex-col items-center p-6">
-      <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+      <Image
+        src="/coffee.png"
+        alt="flower"
+        width={25}
+        height={25}
+        className="-mt-10 mb-10 "
+      />
+      <h2 className="text-3xl font-bold mb-18">Contact Me</h2>
       <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
         <input
           type="text"
