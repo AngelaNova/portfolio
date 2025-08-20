@@ -22,17 +22,17 @@ export default function Navbar() {
 
         <Link
           href="/about"
-          className="flex flex-row items-center hover:text-blue-500"
+          className="flex flex-row items-center hover:text-emerald-600"
         >
           <p>About</p>
         </Link>
 
-        <Link href="/contact" className="flex flex-row  hover:text-blue-500">
+        <Link href="/contact" className="flex flex-row  hover:text-emerald-600">
           <p>Contact</p>
         </Link>
         <div className="border-l border-[#0000001A] h-8"></div>
 
-        <Link href="/contact" className="hover:text-blue-500">
+        <Link href="/contact" className="hover:text-emerald-600">
           CV
         </Link>
       </div>
