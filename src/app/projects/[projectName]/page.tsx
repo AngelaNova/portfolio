@@ -10,7 +10,7 @@ export default async function Project({ params }: Props) {
   const { projectName } = await params;
 
   const projectsMap: Record<string, any> = {
-    "finance-app": financeTracker,
+    "finance-tracker": financeTracker,
     "learn-orgo-chem": learnOrgoChem,
   };
 
