@@ -1,4 +1,3 @@
-// app/components/Footer.tsx
 "use client";
 
 import Link from "next/link";
@@ -6,25 +5,25 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#C8DBCB] text-gray-800 py-6 mt-12">
+    <footer className="bg-[#C8DBCB] text-gray-800 py-6 pb-8">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         {/* Left - Navigation */}
-        <nav className="flex flex-wrap gap-6 text-sm font-medium">
+        <div className="flex flex-wrap items-center justify-center  gap-3 text-sm font-medium">
           <Link
             href="/about"
-            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-3 pb-1.5 pt-2 transition"
           >
             About
           </Link>
           <Link
             href="/projects"
-            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-3 pb-1.5 pt-2 transition"
           >
             Projects
           </Link>
           <Link
             href="/contact"
-            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-3 pb-1.5 pt-2 transition"
           >
             Contact
           </Link>
@@ -32,14 +31,14 @@ export default function Footer() {
             href="/Angela_Novakovic_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-3 pb-1.5 pt-2 transition"
           >
             CV
           </a>
-        </nav>
+        </div>
 
         {/* Right - Social icons */}
-        <div className="flex gap-5 mt-4 md:mt-0">
+        <div className="flex gap-6 mt-4 md:mt-0">
           <a
             href="https://www.linkedin.com/in/angela-novakovic/"
             target="_blank"

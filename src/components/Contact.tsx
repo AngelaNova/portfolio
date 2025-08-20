@@ -32,7 +32,7 @@ export default function Contact() {
   };
 
   return (
-    <main className="flex flex-col items-center p-6">
+    <main className="flex flex-col items-center p-6 pb-20">
       <Image
         src="/coffee.png"
         alt="flower"

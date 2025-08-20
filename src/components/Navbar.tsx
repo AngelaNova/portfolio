@@ -32,7 +32,7 @@ export default function Navbar() {
         </Link>
         <div className="border-l border-[#0000001A] h-8"></div>
 
-        <Link href="/contact" className="hover:text-emerald-600">
+        <Link href="/CV.pdf" className="hover:text-emerald-600">
           CV
         </Link>
       </div>

@@ -15,16 +15,9 @@ type DropDownMenuProps = {
 const DropDownMenu = ({ title, titleHref, links }: DropDownMenuProps) => {
   return (
     <div className="flex flex-row items-center relative group">
-      <Image
-        src="/arrowDown.png"
-        alt="Projects"
-        width={40}
-        height={40}
-        className="px-3 py-3.5"
-      />
       <a
         href={titleHref}
-        className="hover:text-blue-500 focus:outline-none -ml-2"
+        className="hover:text-emerald-600 focus:outline-none -ml-2"
       >
         {title}
       </a>
@@ -50,6 +43,13 @@ const DropDownMenu = ({ title, titleHref, links }: DropDownMenuProps) => {
           )
         )}
       </div>
+      <Image
+        src="/arrowDown.png"
+        alt="Projects"
+        width={40}
+        height={40}
+        className="px-3 py-3.5"
+      />
     </div>
   );
 };

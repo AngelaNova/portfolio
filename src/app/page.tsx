@@ -14,7 +14,6 @@ export default function Home() {
       <ProjectPreview />
       <Skills />
       <Contact />
-      <Footer />
     </main>
   );
 }

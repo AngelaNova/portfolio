@@ -13,7 +13,7 @@ export default function AboutPreview() {
       />
       <div className="flex flex-row space-x-28 items-center">
         <div className="flex flex-col max-w-140">
-          <h2 className="text-3xl font-bold mb-20">About Me</h2>
+          <h2 className="text-3xl font-bold mb-10">About Me</h2>
           <p className="max-w-2xl mx-auto text-gray-700 mb-6">
             With an MSc in Chemistry from McGill, I bring strong analytical
             skills and a passion for problem-solving. I transitioned into
