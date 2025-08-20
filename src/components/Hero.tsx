@@ -1,6 +1,15 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen text-center p-6 bg-gradient-to-b from-white to-[#C8DBCB]">
+      <Image
+        src="/Angela.png"
+        alt="Angela's picture"
+        width={200}
+        height={200}
+        className="rounded-lg mb-4"
+      />
       <h1 className="text-5xl font-bold mb-4">Hi, I'm Angela Novakovic</h1>
       <p className="text-lg mb-6 max-w-2xl">
         Full-stack developer in transition from chemistry to software. Skilled
