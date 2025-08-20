@@ -1,10 +1,9 @@
-import Image from "next/image";
+import Link from "next/link";
 import Hero from "@/components/Hero";
 import AboutPreview from "../components/AboutPreview";
 import ProjectPreview from "../components/ProjectPreview";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +11,14 @@ export default function Home() {
       <Hero />
       <AboutPreview />
       <ProjectPreview />
+      <div className="flex  items-center justify-center pb-18 -mt-6 bg-gray-50">
+        <Link
+          href="/projects"
+          className="text-emerald-600 hover:font-semibold hover:ml-5  "
+        >
+          See all projects →
+        </Link>
+      </div>
       <Skills />
       <Contact />
     </main>

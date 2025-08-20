@@ -5,7 +5,7 @@ description: 'An educational platform to help students learn organic chemistry c
 heroImage: '/images/projects/learn-orgo-chem-hero.png',
 technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Interactive Quizzes', 'Charting / Visualization'],
 status: 'In Development • Personal project',
-liveLink: 'https://learn-orgo-chem.example.com',
+liveLink: 'https://learnorgochem.com',
 codeLink: 'https://github.com/Angela/learn-orgo-chem',
 sections: [
 {
@@ -43,8 +43,8 @@ const financeTracker = {
   heroImage: '/images/projects/finance-hero.png',
   technologies: ['React', 'Redux Toolkit', 'TypeScript', 'UUID', 'Tailwind CSS', 'Charting (Recharts)'],
   status: 'Active • Personal project',
-  liveLink: 'https://your-demo-link.example.com',
-  codeLink: 'https://github.com/Angela/finance-tracker',
+  liveLink: 'https://github.com/AngelaNova/Finance_Project',
+  codeLink: 'https://github.com/AngelaNova/Finance_Project',
   sections: [
     {
       heading: 'Goals & Requirements',
