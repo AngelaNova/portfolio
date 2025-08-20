@@ -10,20 +10,29 @@ export default function Footer() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         {/* Left - Navigation */}
         <nav className="flex flex-wrap gap-6 text-sm font-medium">
-          <Link href="/about" className="hover:text-gray-600 transition">
+          <Link
+            href="/about"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+          >
             About
           </Link>
-          <Link href="/projects" className="hover:text-gray-600 transition">
+          <Link
+            href="/projects"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+          >
             Projects
           </Link>
-          <Link href="/contact" className="hover:text-gray-600 transition">
+          <Link
+            href="/contact"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
+          >
             Contact
           </Link>
           <a
             href="/Angela_Novakovic_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition"
+            className="hover:text-emerald-700 hover:bg-gray-50/35 rounded-sm px-2 py-1 transition"
           >
             CV
           </a>
@@ -35,7 +44,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/angela-novakovic/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition"
+            className="hover:bg-gray-50/35 rounded-full p-2 transition -ml-3"
           >
             <Image
               src="/linkedin.png"
@@ -48,7 +57,7 @@ export default function Footer() {
             href="https://github.com/AngelaNova"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition"
+            className="hover:bg-gray-50/35 rounded-full p-2 transition -ml-3"
           >
             <Image src="/github.png" alt="GitHub icon" width={20} height={20} />
           </a>
@@ -56,7 +65,7 @@ export default function Footer() {
             href="https://www.instagram.com/novakovic.angela/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-600 transition"
+            className="hover:bg-gray-50/35 rounded-full p-2 transition -ml-3"
           >
             <Image
               src="/instagram.png"
