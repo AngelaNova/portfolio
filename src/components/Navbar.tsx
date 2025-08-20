@@ -15,8 +15,8 @@ export default function Navbar() {
           title="Projects"
           titleHref="/projects"
           links={[
-            { label: "Learn Orgo Chem", href: "/projects/LearnOrgoChem" },
-            { label: "Financial App", href: "/projects/FinancialApp" },
+            { label: "Learn Orgo Chem", href: "/projects/learn-orgo-chem" },
+            { label: "Financial App", href: "/projects/financial-app" },
           ]}
         />
 
