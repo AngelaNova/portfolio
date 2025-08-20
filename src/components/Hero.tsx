@@ -9,13 +9,13 @@ export default function Hero() {
       <div className="space-x-4">
         <a
           href="/projects"
-          className="px-6 py-2 bg-emerald-600 text-white rounded hover:bg-[#C8DBCB]"
+          className="px-6 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-600/80"
         >
           View Projects
         </a>
         <a
           href="/contact"
-          className="px-6 py-2 border border-emerald-600 text-emerald-600 rounded hover:bg-[#C8DBCB]"
+          className="px-6 py-2 border border-emerald-600 text-emerald-600 rounded hover:bg-[#FCFCFC]/30"
         >
           Contact Me
         </a>

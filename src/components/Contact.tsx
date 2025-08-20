@@ -41,7 +41,10 @@ export default function Contact() {
         className="-mt-10 mb-10 "
       />
       <h2 className="text-3xl font-bold mb-18">Contact Me</h2>
-      <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-md space-y-4 text-gray-800"
+      >
         <input
           type="text"
           name="name"
@@ -49,7 +52,7 @@ export default function Contact() {
           value={form.name}
           onChange={handleChange}
           required
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border border-green-800 rounded"
         />
         <input
           type="email"
@@ -58,7 +61,7 @@ export default function Contact() {
           value={form.email}
           onChange={handleChange}
           required
-          className="w-full p-2 border rounded"
+          className="w-full p-2 border border-green-800 rounded"
         />
         <textarea
           name="message"
@@ -66,11 +69,11 @@ export default function Contact() {
           value={form.message}
           onChange={handleChange}
           required
-          className="w-full p-2 border rounded h-32"
+          className="w-full p-2 border border-green-800 rounded h-32"
         />
         <Button
           type="submit"
-          className="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="w-full p-2 bg-emerald-500 text-white rounded hover:bg-blue-600"
         >
           Send
         </Button>

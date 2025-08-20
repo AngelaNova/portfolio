@@ -30,7 +30,10 @@ export default function ProjectsPreview() {
         ))}
       </div>
       <div className="mt-6">
-        <Link href="/projects" className="text-emerald-600 hover:underline">
+        <Link
+          href="/projects"
+          className="text-emerald-600 hover:font-semibold hover:ml-5 my-10"
+        >
           See all projects →
         </Link>
       </div>

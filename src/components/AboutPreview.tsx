@@ -36,7 +36,10 @@ export default function AboutPreview() {
         </div>
       </div>
 
-      <Link href="/about" className="text-emerald-600 hover:underline my-10">
+      <Link
+        href="/about"
+        className="text-emerald-600 hover:font-semibold hover:ml-5 my-10"
+      >
         Read more →
       </Link>
     </section>
