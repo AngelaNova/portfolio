@@ -2,7 +2,7 @@
 const learnOrgoChem = {
 title: 'Learn Orgo Chem',
 description: 'An educational platform to help students learn organic chemistry concepts with interactive lessons, quizzes, and visualizations.',
-heroImage: '/images/projects/learn-orgo-chem-hero.png',
+heroImage: '/LearnOrgoChem.png',
 technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Interactive Quizzes', 'Charting / Visualization'],
 status: 'In Development • Personal project',
 liveLink: 'https://learnorgochem.com',
@@ -40,9 +40,9 @@ content: [
 const financeTracker = {
   title: 'Finance Tracker',
   description: 'A React + Redux app for viewing, categorizing, and editing financial transactions with UUID-based tracking and monthly/yearly report visualizations.',
-  heroImage: '/images/projects/finance-hero.png',
+  heroImage: '/FinancialApp.png',
   technologies: ['React', 'Redux Toolkit', 'TypeScript', 'UUID', 'Tailwind CSS', 'Charting (Recharts)'],
-  status: 'Active • Personal project',
+  status: 'Done • Personal project',
   liveLink: 'https://github.com/AngelaNova/Finance_Project',
   codeLink: 'https://github.com/AngelaNova/Finance_Project',
   sections: [
@@ -75,7 +75,86 @@ const financeTracker = {
   ]
 };
 
+const portfolioProject = {
+  title: 'Personal Portfolio',
+  description: 'A modern portfolio website built with Next.js, React, and Tailwind CSS to showcase my projects, experience, and skills as a budding software developer.',
+  heroImage: '/portfolio.png', 
+  technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'Vercel'],
+  status: 'Active • Personal project',
+  liveLink: 'https://your-portfolio-url.com', 
+  codeLink: 'https://github.com/AngelaNova/portfolio', 
+  sections: [
+    {
+      heading: 'Goals & Requirements',
+      content: 'I built this portfolio to present my skills, projects, and journey transitioning from a chemistry background to software development. The focus was on a clean, interactive UI and easy navigation.'
+    },
+    {
+      heading: 'Design & Implementation',
+      content: 'The website uses Next.js App Router for modern routing, React for component-based architecture, and Tailwind CSS for responsive styling.'
+    },
+    {
+      heading: 'Key Features',
+      content: [
+        'Home page with hero, intro, and navigation to About/Projects/Contact',
+        'About section with dynamically rendered story and images',
+        'Projects section displaying project cards with live/demo links',
+        'Contact form integrated for easy communication',
+      ]
+    },
+    {
+      heading: 'Upcoming Improvements',
+      content: [
+        'Add dark/light mode toggle',
+        'Add blog section or technical articles',
+        'Add more about my experience'
+      ]
+    }
+  ]
+};
 
-export { learnOrgoChem, financeTracker };
 
-// Then in a page, you can render: <ProjectPage project={financeTracker} />
+export { learnOrgoChem, financeTracker, portfolioProject };
+
+
+
+export const projectSchemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: learnOrgoChem.title,
+    description: learnOrgoChem.description,
+    url: learnOrgoChem.liveLink,
+    image: learnOrgoChem.heroImage,
+    author: {
+      "@type": "Person",
+      name: "Angela Novakovic",
+    },
+    keywords: learnOrgoChem.technologies.join(", "),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: financeTracker.title,
+    description: financeTracker.description,
+    url: financeTracker.liveLink,
+    image: financeTracker.heroImage,
+    author: {
+      "@type": "Person",
+      name: "Angela Novakovic",
+    },
+    keywords: financeTracker.technologies.join(", "),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: portfolioProject.title,
+    description: portfolioProject.description,
+    url: portfolioProject.liveLink,
+    image: portfolioProject.heroImage,
+    author: {
+      "@type": "Person",
+      name: "Angela Novakovic",
+    },
+    keywords: portfolioProject.technologies.join(", "),
+  },
+];

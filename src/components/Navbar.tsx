@@ -17,6 +17,7 @@ export default function Navbar() {
           links={[
             { label: "Learn Orgo Chem", href: "/projects/learn-orgo-chem" },
             { label: "Finance Tracker", href: "/projects/finance-tracker" },
+            { label: "My Portfolio", href: "/projects/my-portfolio" },
           ]}
         />
 

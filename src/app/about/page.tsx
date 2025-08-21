@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutSection = () => {
   const story = [
@@ -24,11 +25,14 @@ const AboutSection = () => {
 
   return (
     <section className="py-16 pt-30 bg-gradient-to-t from-white to-[#C8DBCB]">
+      <h1 className="text-3xl text-center mb-20 font-semibold tracking-tight text-gray-900">
+        A little about me
+      </h1>
       <div className="container mx-auto px-6 space-y-18">
         {story.map((item, idx) => (
           <div
             key={idx}
-            className="flex flex-col md:flex-row items-center gap-8"
+            className="flex flex-col items-center justify-start md:flex-row items-center gap-8"
           >
             {/* Always picture on the left */}
             <div className="w-full md:w-1/2">
@@ -37,7 +41,7 @@ const AboutSection = () => {
                 alt="About image"
                 width={400}
                 height={400}
-                className="rounded-xl shadow-md object-cover h-100 border border-emerald-800 border-3  hover:scale-105"
+                className="rounded-xl shadow-md w-200 object-fit border border-emerald-800 border-3  hover:scale-105"
               />
             </div>
             {/* Text on the right */}
@@ -52,6 +56,14 @@ const AboutSection = () => {
             </p>
           </div>
         ))}
+      </div>
+      <div className="flex flex-col items-center justify-center pt-30 pb-10">
+        <Link
+          href="https://www.linkedin.com/in/angela-novakovic/"
+          className="text-emerald-600 hover:font-semibold hover:ml-5"
+        >
+          Connect with me on <b>LinkedIn </b>→
+        </Link>
       </div>
     </section>
   );

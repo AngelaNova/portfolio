@@ -23,7 +23,7 @@ const DropDownMenu = ({ title, titleHref, links }: DropDownMenuProps) => {
       </a>
 
       <div
-        className="absolute left-2 mt-32 w-42 rounded-lg bg-white shadow-lg border border-gray-200 
+        className="absolute left-0 mt-40 w-42 rounded-lg bg-white shadow-lg border border-gray-200 
         opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 
         transform transition-all duration-200 hidden group-hover:block m-2"
       >
