@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export default function AboutPreview() {
   return (
-    <section className="flex flex-col py-20 px-6 text-start items-center bg-white">
+    <section
+      id="AboutPreview"
+      className="flex flex-col py-20 px-6 text-start items-center bg-white"
+    >
       <Image
         src="/flower.png"
         alt="flower"

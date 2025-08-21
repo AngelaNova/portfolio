@@ -56,10 +56,10 @@ export default function Home() {
         <ProjectPreview />
         <div className="flex items-center justify-center pb-18 -mt-6 bg-gray-50">
           <Link
-            href="/projects"
+            href="#projectPreview"
             className="text-emerald-600 hover:font-semibold hover:ml-5"
           >
-            See all projects →
+            See my projects →
           </Link>
         </div>
         <Skills />

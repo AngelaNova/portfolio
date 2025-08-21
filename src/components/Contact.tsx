@@ -40,7 +40,7 @@ export default function Contact() {
         height={25}
         className="-mt-10 mb-10 "
       />
-      <h2 className="text-3xl font-bold mb-18 text-emerald-900">
+      <h2 id="contact" className="text-3xl font-bold mb-18 text-emerald-900">
         Let's Connect!
       </h2>
       <form
