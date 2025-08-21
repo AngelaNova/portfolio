@@ -43,7 +43,7 @@ export default function ProjectPage({ project }: ProjectPageProps) {
               alt={`${project.title} screenshot`}
               width={600}
               height={700}
-              className="object-fit h-90 w-190 hover:border hover:border-emerald-500 hover:border-3 rounded-2xl hover:cursor-pointer"
+              className="object-cover h-90 w-190 hover:border hover:border-emerald-500 hover:border-3 rounded-2xl hover:cursor-pointer"
             />
           </Link>
         </div>

@@ -81,7 +81,7 @@ const portfolioProject = {
   heroImage: '/portfolio.png', 
   technologies: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'Vercel'],
   status: 'Active • Personal project',
-  liveLink: 'https://your-portfolio-url.com', 
+  liveLink: 'https://angelanovakovic.vercel.app/', 
   codeLink: 'https://github.com/AngelaNova/portfolio', 
   sections: [
     {

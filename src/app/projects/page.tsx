@@ -1,5 +1,4 @@
 import ProjectsPreview from "@/components/ProjectPreview";
-import Project from "../../components/Project";
 
 export default function Projects() {
   return (
