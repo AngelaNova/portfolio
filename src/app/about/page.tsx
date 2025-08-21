@@ -25,7 +25,7 @@ const AboutSection = () => {
 
   return (
     <section className="py-16 pt-30 bg-gradient-to-t from-white to-[#C8DBCB]">
-      <h1 className="text-3xl text-center mb-20 font-semibold tracking-tight text-gray-900">
+      <h1 className="text-4xl text-center mb-20 font-semibold tracking-tight text-emerald-900">
         A little about me
       </h1>
       <div className="container mx-auto px-6 space-y-18">

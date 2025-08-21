@@ -18,7 +18,9 @@ export default function ProjectsPreview() {
 
   return (
     <section className="py-32 px-6 bg-gray-50 text-center">
-      <h2 className="text-3xl font-bold mb-20">Featured Projects</h2>
+      <h2 className="text-3xl font-bold mb-20 text-emerald-900">
+        Featured Projects
+      </h2>
       <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {projects.map((p) => (
           <Link

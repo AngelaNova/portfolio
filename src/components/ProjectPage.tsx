@@ -28,12 +28,12 @@ export default function ProjectPage({ project }: ProjectPageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(projectSchemas) }}
         />
       </Head>
-      <div className="flex flex-col items-center py-30">
+      <div className="flex flex-col items-center py-30 ">
         {/* Title */}
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900">
+        <h1 className="text-4xl font-bold tracking-tight text-emerald-900">
           {project.title}
         </h1>
-        <p className="mt-3 text-gray-600">{project.description}</p>
+        <p className="mt-5 text-gray-600 max-w-160">{project.description}</p>
 
         {/* Hero image */}
         <div className="mt-8 overflow-hidden rounded-2xl border border-gray-200 shadow-sm">
@@ -51,7 +51,7 @@ export default function ProjectPage({ project }: ProjectPageProps) {
         {/* Quick facts / CTA */}
         <section className="mt-8 grid grid-cols-1 gap-6 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm w-200 md:w-max-200 md:grid-cols-3">
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-emerald-700">
               Technologies Used
             </h3>
             <ul className="mt-3 list-disc space-y-1 pl-5 text-gray-700">
@@ -61,13 +61,13 @@ export default function ProjectPage({ project }: ProjectPageProps) {
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-emerald-700">
               Project Status
             </h3>
             <p className="mt-3 text-gray-800">{project.status}</p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-emerald-700">
               Live Links
             </h3>
             <div className="mt-3 flex flex-wrap gap-3">
@@ -98,7 +98,7 @@ export default function ProjectPage({ project }: ProjectPageProps) {
                 key={idx}
                 className="flex flex-col items-start justify-center  mx-20"
               >
-                <h2 className="text-sm font-semibold uppercase tracking-wider text-gray-500 mt-10 mb-5">
+                <h2 className="text-sm font-semibold uppercase tracking-wider text-emerald-700 mt-10 mb-5">
                   {section.heading}
                 </h2>
                 {Array.isArray(section.content) ? (

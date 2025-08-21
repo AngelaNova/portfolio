@@ -15,7 +15,7 @@ export default function Skills() {
 
   return (
     <section className="py-32 px-6 text-center bg-white">
-      <h2 className="text-3xl font-bold mb-20">Skills</h2>
+      <h2 className="text-3xl font-bold mb-20 text-emerald-900">Skills</h2>
       <div className="flex flex-wrap items-center justify-center align-center gap-3 max-w-2xl mx-auto">
         {skills.map((skill) => (
           <span

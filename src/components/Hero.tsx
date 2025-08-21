@@ -1,7 +1,9 @@
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center  text-center p-6 min-h-screen -mb-20 bg-gradient-to-b from-white to-[#C8DBCB]">
-      <h1 className="text-5xl font-bold mb-4">Hi, I'm Angela Novakovic</h1>
+      <h1 className="text-5xl font-bold mb-4 text-emerald-900">
+        Hi, I'm Angela Novakovic
+      </h1>
       <p className="text-lg mb-6 max-w-2xl">
         Full-stack developer in transition from chemistry to software. Skilled
         in React, Next.js, and building impactful web applications.
