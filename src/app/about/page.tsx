@@ -19,7 +19,7 @@ const AboutSection = () => {
     },
     {
       text: "Today, I'm channeling that energy into projects that blend creativity and logic. Whether it's crafting user-friendly interfaces, structuring clean and efficient code, or collaborating on solutions that make an impact, I see software development as both an art and a science. \n 🌸 Outside of coding, you'll likely find me enjoying coffee, a good book, or dreaming up new projects that connect my scientific past with my developer future.",
-      image: "/McGill.jpg",
+      image: "/McGill.JPG",
     },
   ];
 
